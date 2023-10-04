@@ -1,37 +1,41 @@
-// projects.ts
-
 export const projects = [
-    {
-      id: 1,
-      thumbnail: 'project1.jpg', // Assuming you have images named project1.jpg, project2.jpg, etc.
-      title: 'Project 1',
-      subtitle: 'Subtitle for Project 1',
-      description: 'Description for Project 1. This is where you can provide a brief overview of the project.',
-      location: 'Location 1'
-    },
-    {
-      id: 2,
-      thumbnail: 'project2.jpg',
-      title: 'Project 2',
-      subtitle: 'Subtitle for Project 2',
-      description: 'Description for Project 2. This is where you can provide a brief overview of the project.',
-      location: 'Location 2'
-    },
-    {
-      id: 3,
-      thumbnail: 'project3.jpg',
-      title: 'Project 3',
-      subtitle: 'Subtitle for Project 3',
-      description: 'Description for Project 3. This is where you can provide a brief overview of the project.',
-      location: 'Location 3'
-    },
-    {
-      id: 4,
-      thumbnail: 'project4.jpg',
-      title: 'Project 4',
-      subtitle: 'Subtitle for Project 4',
-      description: 'Description for Project 4. This is where you can provide a brief overview of the project.',
-      location: 'Location 4'
-    }
-  ];
-  
+  {
+    id: 1,
+    thumbnail: "/images/thumbnail1.webp",
+    name: "Evelyn Martinez",
+    description:
+      "Explore a vivid world of color through the artworks of renowned artist Evelyn Martinez.",
+    date: "20 September - 10 November 2023",
+    location: "Doe Art Gallery, New York",
+  },
+  {
+    id: 2,
+    thumbnail: "/images/thumbnail2.webp",
+
+    name: "Benjamin Lee",
+    description:
+      "Immerse yourself in the serene world of sculptor Benjamin Lee.",
+    date: "25 September - 15 November 2023",
+    location: "Smith Art Studio, Los Angeles",
+  },
+  {
+    id: 3,
+    thumbnail: "/images/thumbnail3.webp",
+
+    name: "Olivia Davis",
+    description:
+      "Dive into the enigmatic world of abstract art with the creations of Olivia Davis.",
+    date: "18 September - 8 November 2023",
+    location: "Johnson Gallery, Chicago",
+  },
+  {
+    id: 4,
+    thumbnail: "/images/thumbnail1.webp",
+
+    name: "Michael Taylor",
+    description:
+      "Experience the dynamic energy of city life through the lens of photographer Michael Taylor.",
+    date: "22 September - 12 November 2023",
+    location: "Williams Photography Studio, San Francisco",
+  },
+];
