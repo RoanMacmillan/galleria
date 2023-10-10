@@ -17,10 +17,10 @@ const Featured = () => {
         <div className="mt-[24px] text-base font-bold lg:mt-[32px]">£150</div>
         <p className="mt-[24px] text-base font-normal leading-[21px] max-w-[550px] lg:mt-[32px] ">
           With large colour plates, full-bleed details and four gatefold pages,
-          ‘Liminal Squared’ provides an exacting and thorough overview of
-          Mehretu’s intricate use of painterly surface. Featuring paintings
+          'Liminal Squared' provides an exacting and thorough overview of
+          Mehretu's intricate use of painterly surface. Featuring paintings
           created across the joint exhibitions, the publication places emphasis
-          on the artist’s negotiation of political demonstration, architectural
+          on the artist's negotiation of political demonstration, architectural
           language and geographical space.
         </p>
 
