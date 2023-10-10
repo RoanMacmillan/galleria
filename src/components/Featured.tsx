@@ -13,14 +13,14 @@ const Featured = () => {
         <p className="text-[12.6px] font-bold uppercase leading-[18.96px] tracking-[1.264px]">
           featured publication
         </p>
-        <h2 className="mt-[11px] text-2xl lg:text-4xl lg:mt-[22px]">Julie Mehretu 'Liminal Squared' (2020)</h2>
+        <h2 className="mt-[11px] text-2xl lg:text-4xl lg:mt-[22px]">Julie Mehretu &apos;Liminal Squared&apos; (2020)</h2>
         <div className="mt-[24px] text-base font-bold lg:mt-[32px]">£150</div>
         <p className="mt-[24px] text-base font-normal leading-[21px] max-w-[550px] lg:mt-[32px] ">
           With large colour plates, full-bleed details and four gatefold pages,
-          'Liminal Squared' provides an exacting and thorough overview of
-          Mehretu's intricate use of painterly surface. Featuring paintings
+          &apos;Liminal Squared&apos; provides an exacting and thorough overview of
+          Mehretu&apos;s intricate use of painterly surface. Featuring paintings
           created across the joint exhibitions, the publication places emphasis
-          on the artist's negotiation of political demonstration, architectural
+          on the artist&apos;s negotiation of political demonstration, architectural
           language and geographical space.
         </p>
 
