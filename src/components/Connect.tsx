@@ -4,9 +4,14 @@ import Image from 'next/image';
 
 const Connect = () => {
   return (
-    <div className='px-8 py-10 relative'>
+    <div className='px-8 py-10 lg:py-20 relative'>
 
 <div className='absolute w-full h-[1px] bg-gray-200 top-0 left-0'></div>
+
+
+<div className='lg:flex max-w-[1700px] gap-40 mx-auto'>
+
+  <div className='lg:w-1/3 lg:max-w-[470px]'>
 
 <h2 className='text-xl font-medium'>Newsletter</h2>
 
@@ -27,9 +32,11 @@ const Connect = () => {
           <p className="text-sm font-bold">Subscribe</p>
         </button>
 
+        </div>
 
+        <div className='lg:w-1/2'>
 
-<h2 className='text-xl mt-[40px] font-medium'>Connect</h2>
+<h2 className='text-xl mt-[40px] lg:mt-0 font-medium'>Connect</h2>
 
       <ul className="flex mt-4 gap-6 flex-wrap">
         <li className='w-[140px]'>
@@ -120,6 +127,10 @@ const Connect = () => {
           </a>
         </li>
       </ul>
+
+      </div>
+
+      </div>
     </div>
   );
 };

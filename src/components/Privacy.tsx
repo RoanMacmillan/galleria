@@ -2,10 +2,12 @@ import React from "react";
 
 const Privacy = () => {
   return (
-    <div className="relative bg-[#f2f2f2] px-8 py-10">
+    <div className="relative bg-[#f2f2f2]  px-8 py-10 md:py-6">
 <div className='absolute w-full h-[1px] bg-gray-200 top-0 left-0'></div>
 
-      <ul className="flex flex-col gap-4">
+<div className="md:flex items-center justify-between max-w-[1700px] mx-auto">
+
+      <ul className="flex flex-col md:flex-row md:gap-10  gap-4">
         <li>
           <a className="text-[13px] font-semibold uppercase">privacy policy</a>
         </li>
@@ -27,7 +29,8 @@ const Privacy = () => {
         </li>
       </ul>
 
-      <p className="uppercase font-semibold text-xs mt-8">&copy; 2023 Galleria</p>
+      <p className="uppercase font-semibold text-[13px] md:mt-0 mt-8">&copy; 2023 Galleria</p>
+      </div>
     </div>
   );
 };
