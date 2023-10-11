@@ -31,7 +31,7 @@
 
 @media screen and (min-width: 1024px) {
   .herobg {
-    background-image: url("../../public/images/test.webp");
+    background-image: url("/images/test.webp");
     background-position: bottom left;
     background-repeat: no-repeat;
     background-size: 125%;
